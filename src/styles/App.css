@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: blue;
+  color: white;
+}
+
+.header__nav {
+  display: flex;
+  gap: 15px;
+}
+
+.search-bar {
+  padding: 20px;
+}
+
+.search-bar__input {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+}
